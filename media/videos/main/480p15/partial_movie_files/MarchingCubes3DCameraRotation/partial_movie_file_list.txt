@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/MarchingCubes3DCameraRotation/3025086807_3287956207_3265049405.mp4'

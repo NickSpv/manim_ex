@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "manim-ex"
+version = "0.1.0"
+description = ""
+authors = ["NickSpv <pstebenev@internet.ru>"]
+readme = "README.md"
+packages = [{include = "manim_ex"}]
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+manim = "^0.18.0"
+setuptools = "^69.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
