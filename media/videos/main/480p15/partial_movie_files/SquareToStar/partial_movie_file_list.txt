@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/SquareToStar/1185818338_3087733734_3056510734.mp4'
-file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/SquareToStar/624642324_109991865_987282340.mp4'
-file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/SquareToStar/624642324_3537911976_2999480461.mp4'
-file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/SquareToStar/624642324_1845939737_2999480461.mp4'
-file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/SquareToStar/624642324_2213622933_2999480461.mp4'
