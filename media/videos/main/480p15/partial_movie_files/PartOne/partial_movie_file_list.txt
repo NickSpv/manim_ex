@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/1185818338_3245540234_223132457.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_1662418224_1845797611.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_1304046962_3057933700.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_4221892076_3304320238.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_1784839753_2996009171.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_1704852926_871715005.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_2391294022_3084442583.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_1704852926_1581638269.mp4'
+file 'file:/home/pavel/Projects/manim_ex/media/videos/main/480p15/partial_movie_files/PartOne/624642324_1704852926_3021763601.mp4'
