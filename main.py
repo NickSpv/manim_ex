@@ -1,4 +1,5 @@
 from manim import *
+from manim.opengl import *
 from math import floor
 import random
 from lookup import LookupTable
@@ -18,8 +19,8 @@ class OdinokiyOdinochka(ThreeDScene):
         cylinder.set_color(RED)
         cylinder.set_stroke(GREEN)
         all = VGroup(square, dot1, dot2)
-        trace1 = TracedPath(dot1.get_begin)
-        trace2 = TracedPath(dot2.get_begin)
+        trace1 = TracedPath(dot1.get_end)
+        trace2 = TracedPath(dot2.get_end)
         self.set_camera_orientation(phi=75 * DEGREES, theta=30 * DEGREES)
         self.add(axes)
         self.begin_ambient_camera_rotation(90*DEGREES/3)
@@ -33,6 +34,9 @@ class OdinokiyOdinochka(ThreeDScene):
         self.play(FadeIn(cylinder))
         self.wait(2)
         self.stop_ambient_camera_rotation()
+
+        self.interactive_embed()
+
 
 
 class OdinokiyOdinochkaIshshoOdin(ThreeDScene):
