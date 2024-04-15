@@ -12,9 +12,12 @@ class OdinokiyOdinochka(ThreeDScene):
     def construct(self):
         axes = ThreeDAxes()
         square = Square(color=BLUE, side_length=2)
-        dot1 = Dot(color=BLUE).shift(UP).shift(LEFT)
-        dot2 = Dot(color=BLUE).shift(DOWN).shift(LEFT)
-        cylinder = Cylinder(resolution=(100,100), radius=1, height=2)
+        square.shift(LEFT)
+        dot1 = Dot(color=BLUE).shift(UP).shift(2*LEFT)
+        dot2 = Dot(color=BLUE).shift(DOWN).shift(2*LEFT)
+        cylinder = Cylinder(
+            resolution=(100,100), radius=1, height=2, stroke_width=np.array([0.5])
+        )
         cylinder.rotate(angle=PI/2, axis=LEFT)
         cylinder.set_color(RED)
         cylinder.set_stroke(GREEN)
@@ -32,11 +35,10 @@ class OdinokiyOdinochka(ThreeDScene):
             Rotate(all, angle=2*PI, axis=UP), run_time=10
         )
         self.play(FadeIn(cylinder))
-        self.wait(2)
+        self.wait(5)
         self.stop_ambient_camera_rotation()
 
         self.interactive_embed()
-
 
 
 class OdinokiyOdinochkaIshshoOdin(ThreeDScene):
@@ -60,6 +62,7 @@ class OdinokiyOdinochkaIshshoOdin(ThreeDScene):
         )
         self.wait(2)
         self.stop_ambient_camera_rotation()
+
 
 class Part0(Scene):
     def construct(self):
